@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CalCom | Let's Crack it</title>
+    <!-- <link rel="stylesheet" type="text/css" href="TEMP.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <form action="#" name="form">
+            <div class="result">
+                <input type="text" name="disp" id="disp" placeholder="Let's Crack it">
+            </div>
+            <div class="buttons">
+                <div class="raw">
+                    <input type="button" value="7" onclick="val(this)">
+                    <input type="button" value="8" onclick="val(this)">
+                    <input type="button" value="9" onclick="val(this)">
+                    <input type="button" value="+" onclick="val(this)">
+                </div>
+                <div class="raw">
+                    <input type="button" value="4" onclick="val(this)">
+                    <input type="button" value="5" onclick="val(this)">
+                    <input type="button" value="6" onclick="val(this)">
+                    <input type="button" value="-" onclick="val(this)">
+                </div>
+                <div class="raw">
+                    <input type="button" value="1" onclick="val(this)">
+                    <input type="button" value="2" onclick="val(this)">
+                    <input type="button" value="3" onclick="val(this)">
+                    <input type="button" value="*" onclick="val(this)">
+                </div>
+                <div class="raw">
+                    <input type="button" value="0" onclick="val(this)">
+                    <input type="button" value="." onclick="val(this)">
+                    <input type="button" value="/" onclick="val(this)">
+                    <input type="button" title="Double Click to Clear" name ="calbtn" value="=" ondblclick="clr()" onclick="cal(this)">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
